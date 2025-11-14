@@ -147,6 +147,7 @@ final class MovieQuizViewController: UIViewController {
     }
 
     private func show (quiz step: QuizStepViewModel){
+        imageView.layer.cornerRadius = 20
         imageView.layer.borderWidth = 0
         imageView.layer.borderColor = UIColor.clear.cgColor
         
